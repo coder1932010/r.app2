@@ -1,4 +1,3 @@
- 
 <html>
   <head>
     <title>Image recognition</title>
@@ -8,7 +7,6 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
-    <script src="//unpkg.com/ml5@0.4.3/dist/ml5.min.js" target="_blank"></script>
 
    <link rel="stylesheet" href="style.css">
   
@@ -24,13 +22,11 @@
 
       <p style="font-size: 22px;">Model is trained to identify the following objects: </p>
 <b class="name_of_object">
-  watch
+mother
   <hr>
-  remote
+  me
   <hr>
-  phone
-  <hr>
-  water bottle
+  father
   <hr>
 </b>
       <label>Webcam View - </label>
@@ -43,8 +39,8 @@
       <button onclick="check();" class="btn btn-success">Identify Image</button>
       <br><br>
 
-      <p style="font-size: 22px;">Object : <span id="result_object_name"></span>  </p>
-      <p style="font-size: 22px;">Accuracy :<span id="result_object_accuracy"></span>  </p>
+      <p style="font-size: 22px;">Object : <span id="result_objet_name"></span>  </p>
+      <p style="font-size: 22px;">Accuracy :<span id="result_objet_accuracy"></span>  </p>
     </center>
 
   </div>
